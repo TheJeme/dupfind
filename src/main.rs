@@ -150,7 +150,7 @@ fn print_help() {
         ["'e'", "- Exit"],
     ];
     for item in HELP {
-        indentprint::print(item[0], "", 1, indentprint::Align::Left);
-        indentprint::println(item[1], item[0], 8, indentprint::Align::Left);
+        indentprint::print(item[0], "", 1);
+        indentprint::println(item[1], item[0], 8);
     }
 }
